@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+JP&family=Roboto:wght@500&display=swap');
+
+/* font-family: 'Lobster', cursive;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    color:white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem;
+    position: sticky;
+    top:0;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style-type: none;
+}
+.navbar ul li a{
+    color:white;
+    text-decoration: none;
+    padding:1vw;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar ul li a:hover{
+    background-color:#00a8ad;
+}
+.logo{
+    font-family: 'Lobster', cursive;
+}
+.halflogo{
+    color:#00a8ad;
+}
+header{
+    background-image: url('1.jpg');
+    height: 93vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+header div{
+    color: white;
+    background: rgba(0,0,0,0.7);
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-bottom: 3vh;
+    padding:3vmin;
+}
+.head-text1{
+    font-size: 7.7vmin;
+    margin-bottom: 0.6vh;
+    font-family: 'Roboto', sans-serif;
+}
+.p-text1{
+    font-size: 2.8vmin;
+    margin-bottom: 1vh;
+}
+.btn{
+    margin-top: 2vh;
+    background-color: #00a8ad;
+    color:white;
+    padding: 1.6vmin;
+    width: 7rem;
+    border: none;
+}
+#services{
+    display: flex;
+    flex:1;
+}
+.container{
+    margin:4vh auto;
+    width:90vw;
+}
+.container h3{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 2vh;
+}
+.container p{
+    font-size: 3vmin;
+    margin: 3 auto;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.cards{
+    text-align: center;
+    padding:2.7vmin;
+}
+.cards i{
+    background-color: #00a8ad;
+    border-radius: 50%;
+    padding:3.2vmin;
+}
+
+.about{
+    margin-top: 10vmin;
+}
+.bkabout{
+    width:100%;
+    height: 40vmin;
+    background-image: url('hand.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+}
+.overlay{
+    background: rgba(0,0,0,0.6);
+    height: 40vmin;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.bkabout h1{
+    color: white;
+    font-size: 13vmin;
+    border: red 2px solid;
+    padding:3vmin;
+}
+
+.split{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:3.3vh 5.5vw;
+    background: rgb(255, 187, 0);
+    color: white;
+}
+.abc{
+    font-size: 5vmin;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-bottom: 2vmin;
+}
+.left{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    background-color: teal;
+    align-items: center;
+    text-align: center;
+    font-size: 3vmin;
+    margin-left: 3vw;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding:2vw;
+}
+
+.splt{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.splt img{
+    height: 75vmin;
+    width:75vmin;
+}
+@media(max-width:600px){
+.splt img{
+    height: 60vmin;
+    width: 50vmin;
+    padding-right: 0;
+}
+.frm{
+    padding-right: 4vw;
+    padding: 2vmin;
+}
+.splt{
+    margin-bottom: 3vmin;
+}
+}
+.con{
+    padding-top: 4.5vh;
+    text-align: center;
+    color: #00a8ad;
+    font-size: 10vmin;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 4vh;
+}
+.frm{
+    padding-left: 0;
+    padding-right: 14vw;
+    justify-content: center;
+    border: 2px #00a8ad solid;
+    padding:3vmin;
+}
+input{
+    width:25vw;
+    height: 5vh;
+    margin: 2vmin;
+    border: 2px #00a8ad solid;
+}
+label{
+    font-size: 4vmin;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+footer{
+    background-color: gray;
+    color: white;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 4vmin;
+}
