@@ -98,7 +98,7 @@ header div{
 }
 .cards{
     text-align: center;
-    padding:2.7vmin;
+    padding:2.4vmin;
 }
 .cards i{
     background-color: #00a8ad;
@@ -180,12 +180,12 @@ header div{
     width: 50vmin;
     padding-right: 0;
 }
-.frm{
-    padding-right: 4vw;
-    padding: 2vmin;
-}
 .splt{
     margin-bottom: 3vmin;
+}
+.frm{
+    margin-right: 1vmin;
+    text-align: center;
 }
 }
 .con{
@@ -198,7 +198,7 @@ header div{
 }
 .frm{
     padding-left: 0;
-    padding-right: 14vw;
+    padding-right: 7vmin;
     justify-content: center;
     border: 2px #00a8ad solid;
     padding:3vmin;
